@@ -1,0 +1,22 @@
+int main()
+{
+int q;
+int a, b;
+int aba, caba, goool;
+int u, i, o, p;
+a = 4 + (2 + (b - 4)); a = 4 + 5;
+while (i < 5)
+{
+
+a = (a + a) + a + 4;
+b = a + 4;
+while ((a + 1) + 2 < 4){
+a  = 2 + b;
+}
+}
+b = a + a;
+while (a <= 4){
+b = 2 + b;
+a = 3 + b;
+}
+return a;}

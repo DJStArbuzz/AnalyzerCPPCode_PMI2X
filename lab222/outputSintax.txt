@@ -1,0 +1,182 @@
+Function
+    Begin
+        Type
+            int    [int] 
+        FunctionName    [main] 
+        {    [Brace] 
+    Descriptions
+        Descr
+            Type
+                int    [int] 
+            VarList
+                Id    [q] 
+            ;    [Separ] 
+        Descr
+            Type
+                int    [int] 
+            VarList
+                Id    [a] 
+                ,    [Separ] 
+                VarList
+                    Id    [b] 
+            ;    [Separ] 
+        Descr
+            Type
+                int    [int] 
+            VarList
+                Id    [aba] 
+                ,    [Separ] 
+                VarList
+                    Id    [caba] 
+                    ,    [Separ] 
+                    VarList
+                        Id    [goool] 
+            ;    [Separ] 
+        Descr
+            Type
+                int    [int] 
+            VarList
+                Id    [u] 
+                ,    [Separ] 
+                VarList
+                    Id    [i] 
+                    ,    [Separ] 
+                    VarList
+                        Id    [o] 
+                        ,    [Separ] 
+                        VarList
+                            Id    [p] 
+            ;    [Separ] 
+    Operators
+        Op
+            Id    [a] 
+            =    [=] 
+            Expr
+                SimpleExpr    [4] 
+                +    [ArOp] 
+                SimpleExpr
+                    (    [Scob] 
+                    Expr
+                        SimpleExpr    [2] 
+                        +    [ArOp] 
+                        SimpleExpr
+                            (    [Scob] 
+                            Expr
+                                SimpleExpr    [b] 
+                                -    [ArOp] 
+                                SimpleExpr    [4] 
+                            )    [Scob] 
+                    )    [Scob] 
+            ;    [Separ] 
+        Op
+            Id    [a] 
+            =    [=] 
+            Expr
+                SimpleExpr    [4] 
+                +    [ArOp] 
+                SimpleExpr    [5] 
+            ;    [Separ] 
+        Op
+            while    [while] 
+            (    [Scob] 
+            Condition
+                SimpleExpr    [i] 
+                RelationsOperators    [<] 
+                SimpleExpr    [5] 
+            )    [Scob] 
+            {    [Brace] 
+            Operators
+                Op
+                    Id    [a] 
+                    =    [=] 
+                    Expr
+                        Expr
+                            SimpleExpr
+                                (    [Scob] 
+                                Expr
+                                    SimpleExpr    [a] 
+                                    +    [ArOp] 
+                                    SimpleExpr    [a] 
+                                )    [Scob] 
+                            +    [ArOp] 
+                            SimpleExpr    [a] 
+                        +    [ArOp] 
+                        SimpleExpr    [4] 
+                    ;    [Separ] 
+                Op
+                    Id    [b] 
+                    =    [=] 
+                    Expr
+                        SimpleExpr    [a] 
+                        +    [ArOp] 
+                        SimpleExpr    [4] 
+                    ;    [Separ] 
+                Op
+                    while    [while] 
+                    (    [Scob] 
+                    Condition
+                        Expr
+                            SimpleExpr
+                                (    [Scob] 
+                                Expr
+                                    SimpleExpr    [a] 
+                                    +    [ArOp] 
+                                    SimpleExpr    [1] 
+                                )    [Scob] 
+                            +    [ArOp] 
+                            SimpleExpr    [2] 
+                        RelationsOperators    [<] 
+                        SimpleExpr    [4] 
+                    )    [Scob] 
+                    {    [Brace] 
+                    Operators
+                        Op
+                            Id    [a] 
+                            =    [=] 
+                            Expr
+                                SimpleExpr    [2] 
+                                +    [ArOp] 
+                                SimpleExpr    [b] 
+                            ;    [Separ] 
+                    }    [Brace] 
+            }    [Brace] 
+        Op
+            Id    [b] 
+            =    [=] 
+            Expr
+                SimpleExpr    [a] 
+                +    [ArOp] 
+                SimpleExpr    [a] 
+            ;    [Separ] 
+        Op
+            while    [while] 
+            (    [Scob] 
+            Condition
+                SimpleExpr    [a] 
+                RelationsOperators    [<=] 
+                SimpleExpr    [4] 
+            )    [Scob] 
+            {    [Brace] 
+            Operators
+                Op
+                    Id    [b] 
+                    =    [=] 
+                    Expr
+                        SimpleExpr    [2] 
+                        +    [ArOp] 
+                        SimpleExpr    [b] 
+                    ;    [Separ] 
+                Op
+                    Id    [a] 
+                    =    [=] 
+                    Expr
+                        SimpleExpr    [3] 
+                        +    [ArOp] 
+                        SimpleExpr    [b] 
+                    ;    [Separ] 
+            }    [Brace] 
+    End
+        return    [return] 
+        Id    [a] 
+        ;    [Separ] 
+        }    [Brace] 

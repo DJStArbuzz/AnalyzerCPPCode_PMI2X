@@ -1,0 +1,12 @@
+int main functionBegin
+int q 2 DECL
+int a b 3 DECL
+int aba caba goool 4 DECL
+int u i o p 5 DECL
+a 4 2 b 4 -  +  +  = 
+a 4 5 +  = 
+m2 DEFL i 5 < m3 a a a +  a +  4 +  = b a 4 +  = m0 DEFL a 1 +  2 +  4 < m1 a 2 b +  =  m0 BRL m1 DEFL  m2 BRL m3 DEFL 
+b a a +  = 
+m4 DEFL a 4 <= m5 b 2 b +  = a 3 b +  =  m4 BRL m5 DEFL 
+
+return a functionEnd
